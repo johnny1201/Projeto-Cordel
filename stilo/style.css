@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    min-height: 98vh;
+    background-color: darkgray;
+}
+header, footer{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 50px 0 30px 0;
+    font-family: 'Lobster', cursive;
+}
+footer, header>p{
+font-size: 2vw;
+}
+section{
+    padding: 10vh;
+    line-height: 2em;
+    padding-left: 10vw;
+    font-family: 'Luxurious Roman', cursive;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.normal{
+    background-color: white;
+}
+.espaço{
+    padding-bottom: 4em;
+}
+.imagem{
+    background-color: grey;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: blanchedalmond;
+    width: 210px;
+    padding-left: 5px;
+   
+}
+#img1{
+    background-image: url('../imagens/background001.jpg');
+    background-position: right, center;
+    
+}
+#img2{
+    background-image: url('../imagens/background002.jpg');
+    background-position: right, center;
+    
+}
+a{
+    color: rgb(153, 153, 196);
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(4, 213, 250);
+    text-decoration: underline;
+}
